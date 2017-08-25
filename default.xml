@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="morty"/>
+
+  <remote fetch="https://github.com/koo7lee" name="github"/>
+
+  <project remote="github" revision="7d5822bf4cb2089687c3c9a908cf4a4ef4e9a53a" upstream="morty"  name="poky" path="sources/poky"/>
+  <project remote="github" revision="41d6fdc0fe5ea6054616cfccda13baac3ff33791" upstream="morty"  name="meta-ti" path="sources/meta-ti"/>
+  <project remote="github" revision="3d2f620a6a98b1b6abb1103d7dc986921436ed19" upstream="master" name="meta-processor-sdk" path="sources/meta-processor-sdk"/>
+  <project remote="github" revision="3601fd2c5306ac6d5d0d536e0be8cbb90da9b4c1" upstream="morty"  name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="github" revision="880a7bd1d3b9a1b2003f5b0620350f03158bbd43" upstream="master"  name="meta-browser" path="sources/meta-browser"/>
+  <project remote="github" revision="d84874bad834657dd04ea69c35a74dd9dbd535b8" upstream="morty"  name="meta-linaro" path="sources/meta-linaro"/>
+
+</manifest>
