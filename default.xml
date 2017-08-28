@@ -12,4 +12,9 @@
   <project remote="github" revision="880a7bd1d3b9a1b2003f5b0620350f03158bbd43" upstream="master"  name="meta-browser" path="sources/meta-browser"/>
   <project remote="github" revision="d84874bad834657dd04ea69c35a74dd9dbd535b8" upstream="morty"  name="meta-linaro" path="sources/meta-linaro"/>
 
+  <project remote="github" revision="poky" name="am57xx-bsp-base" path="sources/base">
+	<copyfile dest="README" src="README"/>
+	<copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
 </manifest>
