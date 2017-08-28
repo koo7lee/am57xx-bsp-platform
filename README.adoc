@@ -22,7 +22,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir ~/am57xx-yocto
 $ cd ~/am57xx-yocto
-$ repo init -u https://github.com/koo7lee/am57xx-bsp-platform.git -b morty
+$ repo init -u https://github.com/koo7lee/am57xx-bsp-platform.git -b arago
 $ repo sync -j4
 
 At the end of the commands you have every metadata you need to start work with.
@@ -30,7 +30,10 @@ At the end of the commands you have every metadata you need to start work with.
 To start a simple image build:
 
 [source,console]
-$: source ./setup-environment build
+$: ./oe-layertool-setup.sh -f config.txt
+$: cd build
+$: . conf/setenv
+$: export PATH=/opt/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin:$PATH
 $: bitbake core-image-minimal
 
 You can use any directory to host your build.
