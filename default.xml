@@ -5,14 +5,17 @@
 
   <remote fetch="https://github.com/koo7lee" name="github"/>
 
-  <project remote="github" revision="7d5822bf4cb2089687c3c9a908cf4a4ef4e9a53a" upstream="morty"  name="poky" path="sources/poky"/>
-  <project remote="github" revision="41d6fdc0fe5ea6054616cfccda13baac3ff33791" upstream="morty"  name="meta-ti" path="sources/meta-ti"/>
+  <project remote="github" revision="bdf7a362ecdafd47f309b7a21feac4b94624f287" upstream="1.32"  name="bitbake" path="sources/bitbake"/>
   <project remote="github" revision="3d2f620a6a98b1b6abb1103d7dc986921436ed19" upstream="master" name="meta-processor-sdk" path="sources/meta-processor-sdk"/>
-  <project remote="github" revision="3601fd2c5306ac6d5d0d536e0be8cbb90da9b4c1" upstream="morty"  name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="github" revision="b727bf8fce8e9cb5a6b5d5b48c45f0088e67eb53" upstream="morty"  name="meta-arago" path="sources/meta-arago"/>
   <project remote="github" revision="880a7bd1d3b9a1b2003f5b0620350f03158bbd43" upstream="master"  name="meta-browser" path="sources/meta-browser"/>
+  <project remote="github" revision="3601fd2c5306ac6d5d0d536e0be8cbb90da9b4c1" upstream="morty"  name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="github" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" upstream="morty"  name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="github" revision="41d6fdc0fe5ea6054616cfccda13baac3ff33791" upstream="morty"  name="meta-ti" path="sources/meta-ti"/>
   <project remote="github" revision="d84874bad834657dd04ea69c35a74dd9dbd535b8" upstream="morty"  name="meta-linaro" path="sources/meta-linaro"/>
+  <project remote="github" revision="ddf907ca95a19f54785079b4396935273b3747f6" upstream="morty"  name="oe-core" path="sources/oe-core"/>
 
-  <project remote="github" revision="poky" name="am57xx-bsp-base" path="sources/base">
+  <project remote="github" revision="arago" name="am57xx-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
